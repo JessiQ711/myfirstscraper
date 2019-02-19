@@ -14,7 +14,9 @@ print(html)
 # # Find something on the page using css selectors
 root = lxml.html.fromstring(html)
 print(root.cssselect("div#footer"))
-
+lsitofmatches=root.cssselect("a")
+for match in listofmatches:
+  print(match)
 # scraperwiki.sqlite.save(unique_keys=['name'], data={"name": "susan", "occupation": "software developer"})
 #
 # # An arbitrary query against the database
