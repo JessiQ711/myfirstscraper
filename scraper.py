@@ -19,7 +19,7 @@ for match in listofmatches:
   print(match)
   record["link"]=lxml.html.tostring(match)
   print(record)
-  scrapewiki.sqlite.save(unique_keys=['link'], data=record)
+  scraperwiki.sqlite.save(unique_keys=['link'], data=record)
   print(lxml.html.tostring(match))
 # c
 #
