@@ -1,9 +1,10 @@
 # This is a template for a Python scraper on morph.io (https://morph.io)
 # including some code snippets below that you should find helpful
-
+# The net two lines to scraperwiki library 
 # import scraperwiki
 # import lxml.html
 #
+print("Hello")
 # # Read in a page
 # html = scraperwiki.scrape("http://foo.com")
 #
