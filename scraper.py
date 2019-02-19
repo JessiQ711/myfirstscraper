@@ -17,6 +17,7 @@ print(root.cssselect("div#footer"))
 lsitofmatches=root.cssselect("a")
 for match in listofmatches:
   print(match)
+  print(lxml.html.tostring(match))
 # scraperwiki.sqlite.save(unique_keys=['name'], data={"name": "susan", "occupation": "software developer"})
 #
 # # An arbitrary query against the database
